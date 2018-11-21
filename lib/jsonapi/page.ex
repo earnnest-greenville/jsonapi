@@ -7,5 +7,7 @@ defmodule JSONAPI.Page do
             offset: nil,
             size: nil,
             page: nil,
-            cursor: nil
+            cursor: nil,
+            cursor_after: nil,
+            cursor_before: nil
 end
